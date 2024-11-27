@@ -1,0 +1,1 @@
+export { NatsService as default } from './src/NatsService.js';

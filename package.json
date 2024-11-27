@@ -1,0 +1,22 @@
+{
+  "name": "jnats-hub",
+  "version": "0.0.3",
+  "description": "JNats-Hub é uma solução projetada para simplificar e otimizar a comunicação entre microserviços, utilizando o poder do NATS como backbone para troca de mensagens de baixa latência e alta escalabilidade.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanLeao/jnats-hub.git"
+  },
+  "keywords": [
+    "nats"
+  ],
+  "author": "jeanleao",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.28.2"
+  },
+  "bugs": {
+    "url": "https://github.com/JeanLeao/jnats-hub/issues"
+  },
+  "homepage": "https://github.com/JeanLeao/jnats-hub#readme"
+}
