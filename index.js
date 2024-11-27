@@ -1,1 +1,3 @@
-export { NatsService as default } from './src/NatsService.js';
+import NatsService from './src/NatsService.js';
+
+export default NatsService;
