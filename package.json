@@ -1,6 +1,6 @@
 {
   "name": "jnats-hub",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "JNats-Hub é uma solução projetada para simplificar e otimizar a comunicação entre microserviços, utilizando o poder do NATS como backbone para troca de mensagens de baixa latência e alta escalabilidade.",
   "main": "index.js",
   "type": "module",
