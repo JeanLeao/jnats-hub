@@ -193,7 +193,9 @@ function NatsService(config = {}) {
   const registerHandlers = async () => {
     for (const [action, handler] of handlers) {
       const subject = `${defaultConfig.prefix}.${action}`;
-      const subscription = connection.subscribe(subject);
+      const subscription = connection.subscribe(subject, {
+        queue: `${defaultConfig.prefix}.${action}.queue`
+      });
       subscriptions.set(action, subscription);
 
       (async () => {
